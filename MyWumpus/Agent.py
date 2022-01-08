@@ -3,6 +3,8 @@ from World import inside
 
 # ==============================================================================================
 # Modificar o E S T A D O  do  A G E N T E
+# ==============================================================================================
+
 def destroySpear():
     if Config.spears<1: return(False) 
     Config.spears-=1
